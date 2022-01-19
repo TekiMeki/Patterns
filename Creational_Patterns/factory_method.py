@@ -31,3 +31,10 @@ stick=creator.create()
 waffle.release("клубничка")
 stick.release("шоколад")
 # print(waffle, stick, sep="\n")
+
+class SayHelo:
+    def sayhi(self):
+        print("Hi")
+
+hj=SayHelo()
+hj.sayhi()
